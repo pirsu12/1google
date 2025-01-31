@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+</head>
+<style>
+    body {
+        background-image: url(./240_F_525080722_z1taRKunQMSoEUgZSIgLOO8kKN23L2vy.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    @font-face {
+        font-family: abc1;
+        src: url(./Languages/DancingScript-Medium.ttf);
+    }
+
+    @font-face {
+        font-family: abc2;
+        src: url(./Languages/Macondo-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: abc3;
+        src: url(./Languages/Jersey15-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: abc4;
+        src: url(./Languages/PlaywriteIN-VariableFont_wght.ttf);
+    }
+
+    #ul2 {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: 40px;
+        background-color: antiquewhite;
+        height: 70px;
+        font-family: abc3;
+    }
+
+    #ul2 li:hover {
+        background-color: rgb(3, 37, 37);
+        color: white;
+        font-family: abc1;
+    }
+
+    #ul2 li:active {
+        color: red;
+    }
+
+    #ul2:hover {
+        background-color: rgb(207, 135, 47);
+    }
+
+    #ul1 {
+        display: flex;
+        justify-content: space-between;
+        font-size: 40px;
+        background-color: rgb(203, 214, 48);
+        height: 70px;
+        list-style: none;
+    }
+
+    #ul1 li a {
+        text-decoration: none;
+        font-family: abc2;
+    }
+
+    #ul1 li a:hover {
+        font-family: abc4;
+        font-size: 35px;
+        color: red;
+        background-color: rgb(54, 25, 3);
+    }
+
+    #ul1 li a:active {
+        color: white;
+    }
+
+    #ul1:hover {
+        background-color: rgb(99, 238, 95);
+    }
+
+    input {
+        width: 30em;
+        height: 2em;
+        border-radius: 1.5em;
+    }
+
+    input:focus {
+        background-color: aquamarine;
+        font-style: italic;
+        font-weight: bold;
+        font-family: abc2;
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <ul id="ul2">
+        <li>Home</li>
+        <li>Manage</li>
+        <li>History</li>
+        <li>Size</li>
+        <li>About</li>
+    </ul>
+    <br>
+    <ul id="ul1">
+        <li><a href="./Coming-soon.html">History</a></li>
+        <li><a href="./Coming-soon.html">Manage</a></li>
+        <li><a href="./Coming-soon.html">Size</a></li>
+        <li><a href="./Coming-soon.html">About</a></li>
+        <li><a href="./Coming-soon.html">Home</a></li>
+    </ul>
+    <input type="text" placeholder="Focus">
+</body>
+
+</html>
